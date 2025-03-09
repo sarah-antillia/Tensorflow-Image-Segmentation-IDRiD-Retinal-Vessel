@@ -44,11 +44,16 @@ As demonstrated in
 Therefore we employed the same method for this IDRiD Segmentation model.<br>
 <br>
 <b>Actual Image Segmentation for IDRiD images of 4288x2848 pixels</b><br>
+
 Our segementation model infers masks that are similar to the ground truth, but it does not produce satisfactory results in detail. 
 The simple UNet model, which takes input images of 512x512 pixels, does not work well for segmenting of high-resolution images.
 <br>
 <br>
-
+For segmentation of large images using UNet, employing a divide and conquer algorithm is a good idea. Since large images cannot be processed all at once, they are divided into small tiles. Segmentation processing is then applied to these divided small images, and finally, they are reassembled to their original size. This is our proposed Tiled Image Segmentation method 
+<a href="https://github.com/sarah-antillia/Tensorlfow-Tiled-Image-Segmentation-IDRiD-Retinal-Vessel">
+Tensorlfow-Tiled-Image-Segmentation-IDRiD-Retinal-Vessel</a>
+<br>
+<br>
 <table>
 <tr>
 <th>Input: image</th>
