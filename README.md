@@ -257,7 +257,7 @@ By using this callback, on every epoch_change, the epoch change tiled inference 
 <img src="./projects/TensorflowSlightlyFlexibleUNet/Augmented-IDRiD/asset/epoch_change_infer_at_start.png" width="1024" height="auto"><br>
 <br>
 <br>
-<b>Epoch_change_tiled_inference output at ending (75,76,77,78)</b><br>
+<b>Epoch_change_tiled_inference output at ending (97,98,99,100)</b><br>
 <img src="./projects/TensorflowSlightlyFlexibleUNet/Augmented-IDRiD/asset/epoch_change_infer_at_end.png" width="1024" height="auto"><br>
 <br>
 <br>
